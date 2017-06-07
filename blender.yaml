@@ -1,0 +1,10 @@
+version: "3"
+services:
+  master:
+    image: monta/blender-master
+    ports:
+      - 8000:8000
+  slave:
+    image: monta/blender-slave
+    deploy:
+      replicas:3

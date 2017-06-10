@@ -25,4 +25,4 @@ RUN mkdir /usr/local/blender && \
 	curl -SL "https://github.com/84monta/blendenv/raw/master/master.blend" -o /usr/local/blender/master.blend
 
 
-ENTRYPOINT ["/usr/local/blender/blender", "-b /usr/local/blender/master.blend", "--addons netrender", "-a -noaudio", "-nojoystick"]
+ENTRYPOINT ["/usr/local/blender/blender", "-b" ,"/usr/local/blender/master.blend", "--addons","netrender", "-a","-noaudio", "-nojoystick"]

@@ -2,7 +2,7 @@ FROM ubuntu:zesty
 
 ENV MAJOR_VERSION 2.78
 ENV BLENDER_VERSION 2.78c
-ENV BLENDER_URL http://download.blender.org/release/Blender$MAJOR_VERSION/blender-BLENDER_VERSION-linux-glibc219-x86_64.tar.bz2
+ENV BLENDER_URL http://download.blender.org/release/Blender$MAJOR_VERSION/blender-$BLENDER_VERSION-linux-glibc219-x86_64.tar.bz2
 
 LABEL authors="Monta <84monta@gmail.com>"
 

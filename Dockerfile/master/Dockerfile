@@ -4,9 +4,7 @@ ENV major_version 2.78
 ENV major_version 2.78c
 ENV blender_url http://ftp.halifax.rwth-aachen.de/blender/release/Blender$BLENDER_MAJOR/blender-$BLENDER_VERSION-linux-glibc219-x86_64.tar.bz2
 
-
 LABEL authors="Monta <84monta@gmail.com>"
-
 
 RUN apt-get update && \
 	apt-get install -y \
